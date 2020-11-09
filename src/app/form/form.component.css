@@ -1,0 +1,204 @@
+#hgt40
+{
+height: 40%;
+}
+#hgt10
+{
+	height: 10%;
+}
+#hgt30
+{
+	height: 30%;
+}
+#left{
+	position:Fixed;
+	border-radius:25px;
+	background:#4d4d4d;
+	text-align:left;
+	opacity:1;
+	width:6%;
+	height:95%;
+	left:0;
+	top:1;
+	bottom:1;
+}
+
+.line{
+            fill: none;
+            stroke: green;
+            stroke-width: 5px;
+         }
+.Menu{
+	margin: 0;
+  padding: 14px 16px;
+	display:block;
+	border-radius:25px;
+	background-color:gray;
+	text-align:center;
+}
+.left-ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d4d4d;
+  color:white;
+}
+.left-li{
+  display: block;
+  border-radius:25px;
+  color: white;
+  text-align: center;
+  padding: 14px 17px;
+  text-decoration: none;
+  
+}
+a {
+	color:white;
+	
+}
+a:hover{
+	color:green;
+}
+.left-li:hover {
+  background-color: #111;
+}
+
+#bottom{
+
+    position: Fixed; 
+    background:#404040; 
+	text-align:center;
+	opacity: 1;
+    width:100%;
+    bottom:0;
+	color:white;
+}
+
+.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  height:relative;
+}
+.bgcolour
+{
+	background-color: Silver;
+}
+h1
+{
+	color:#074549;
+}
+div
+{
+	font-family: Sans-Serif;
+	color: #074549;
+}
+.bottom{                      /*positions the footer in the bottom of the list*/
+position: Fixed; 
+background:#404040; 
+text-align:center;
+opacity: 1;
+width:100%;
+bottom:0;
+color:white;
+}
+#ctr{
+text-align: Center;
+}
+#lft{
+	text-align: Left;
+}
+#bgclr{
+	background-color: gray;
+}
+#hgt40
+{
+height: 40%;
+}
+#hgt10
+{
+	height: 10%;
+}
+#hgt30
+{
+	height: 30%;
+}
+#left{
+	position:Fixed;
+	border-radius:25px;
+	background:#4d4d4d;
+	text-align:left;
+	opacity:1;
+	width:6%;
+	height:95%;
+	left:0;
+	top:1;
+	bottom:1;
+}
+
+.line{
+            fill: none;
+            stroke: green;
+            stroke-width: 5px;
+         }
+.Menu{
+	margin: 0;
+  padding: 14px 16px;
+	display:block;
+	border-radius:25px;
+	background-color:gray;
+	text-align:center;
+}
+.left-ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #4d4d4d;
+  color:white;
+}
+.left-li{
+  display: block;
+  border-radius:25px;
+  color: white;
+  text-align: center;
+  padding: 14px 17px;
+  text-decoration: none;
+  
+}
+a {
+	color:white;
+	
+}
+a:hover{
+	color:green;
+}
+.left-li:hover {
+  background-color: #111;
+}
+
+#bottom{
+
+    position: Fixed; 
+    background:#404040; 
+	text-align:center;
+	opacity: 1;
+    width:100%;
+    bottom:0;
+	color:white;
+}
+.polaroid1 {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  height:35px;
+  border:5px solid blue;
+}
+.polaroid {
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  height:relative;
+  border:5px;
+}

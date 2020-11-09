@@ -1,0 +1,86 @@
+.polaroid {
+    background-color: gray;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height:relative;
+  }
+  .polaroid1 {
+    background-color:rgb(78, 78, 250);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 25px;
+    height:relative;
+    width : relative;
+    padding: 14px 16px;
+    border-radius:25px;
+  }
+  a {
+    color: gray;
+  }    
+  .column {
+    float: left;
+    width: 40%;
+    padding: 10px;
+    border: 10px;
+    height: relative; /* Should be removed. Only for demonstration */
+  }
+  .column1 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    border: 10px;
+    height: relative; /* Should be removed. Only for demonstration */
+  }
+.hgt10
+{
+height: 70px;
+}
+  
+  a:hover{
+    color:green;
+  }
+  .Menu{
+    margin: 0;
+    padding: 14px 16px;
+    border-radius:25px;
+    background-image: url("welcome.jpg");
+    background-size: 40%;
+    text-align:center;
+  }
+
+.bottom{                      /*positions the footer in the bottom of the list*/
+
+  position: Fixed; 
+  background:#404040; 
+	text-align:center;
+	opacity: 1;
+  width:100%;
+  bottom:0;
+  color:white;
+  opacity: 60%;
+}
+  .bgimg {
+    background-image: url("welcome.jpg");
+    background-color: #cccccc;
+    height: 400px;
+    width: 500px;
+    padding: 14px 16px;
+    border-radius:25px;
+    margin: 0 auto;
+    background-position-x: center;
+    align-items: center;
+    background-size: cover;
+  }
+  
+  .jumbotron {                 /*a bootstrap class with some modification for the index site*/
+    background-image: url("welcome.jpg"); 
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+#ctr{
+  text-align: Center;
+  }
+#rgt{
+  text-align:Right;
+}
