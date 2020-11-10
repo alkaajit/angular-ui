@@ -13,5 +13,5 @@ COPY . /angular-app
 # start app
 CMD ng serve --host 0.0.0.0
 
-EXPOSE 8080
+EXPOSE 8081
 EXPOSE 4200
