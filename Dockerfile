@@ -1,7 +1,5 @@
 FROM node:12.2.0
 
-LABEL authors="Haramrit Singh Khurana, Ajit Yadav"
-
 WORKDIR /angular-app
 ENV PATH /angular-app/node_modules/.bin:$PATH
 
