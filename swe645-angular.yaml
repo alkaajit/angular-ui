@@ -21,7 +21,7 @@ spec:
         app: swe645-angular
     spec:
       containers:
-        - image: swe645group/swe645angular_ui:{buildNumber}
+        - image: swe645group/swe645third:{buildNumber}
           name: swe645-angular
 ---
 apiVersion: autoscaling/v2beta1
