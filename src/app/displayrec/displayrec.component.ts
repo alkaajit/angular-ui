@@ -27,14 +27,3 @@ export class DisplayrecComponent implements OnInit {
       );
   }
 }
-
-
-  // showConfig() {
-  //   this.displayService.getConfig()
-  //     .subscribe((data: Config) => this.config = {
-  //         name: data['name'],
-  //         age:  data['age']
-  //     });
-  // }
-
-

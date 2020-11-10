@@ -18,7 +18,7 @@ node {
     }
 
     stage('Deploy') {
-     withKubeConfig([credentialsId: 'rancher-login', serverUrl: 'https://ec2-3-236-123-218.compute-1.amazonaws.com/k8s/clusters/c-phrz2']) {
+     withKubeConfig([credentialsId: 'rancher-login', serverUrl: 'https://ec2-35-168-8-84.compute-1.amazonaws.com/k8s/clusters/c-q5cnk']) {
      sh "sed -i 's/{buildNumber}/$BUILD_NUMBER/g' swe645-angular.yaml"
      sh '/usr/local/bin/kubectl apply -f swe645-angular.yaml'
     }
