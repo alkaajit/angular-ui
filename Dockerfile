@@ -11,7 +11,7 @@ RUN npm install -g @angular/cli@7.3.9
 COPY . /angular-app
 
 # start app
-CMD ng serve --host 0.0.0.0
+CMD ng serve --host 0.0.0.0 --disableHostCheck true 
 
 EXPOSE 8081
 EXPOSE 4200
