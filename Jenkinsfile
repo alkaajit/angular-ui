@@ -9,7 +9,7 @@ node {
 	     def newApp
 	     def registry = 'registry.hub.docker.com'
 	     def registryCredential = 'swe645group'
-	     def buildHome = 'swe645group/swe645angular_ui'
+	     def buildHome = 'swe645group/swe645third'
 		   docker.withRegistry( 'https://' + registry, registryCredential ) {
 			    def buildName = buildHome + ":$BUILD_NUMBER"
 				newApp = docker.build buildName
